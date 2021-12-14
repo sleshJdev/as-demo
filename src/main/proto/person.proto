@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package persons;
+
+option java_package = "net.aerospike.demo";
+option java_outer_classname = "PersonProto";
+
+message Person {
+  int32 id = 1;
+  string name = 2;
+  string email = 3;
+}
